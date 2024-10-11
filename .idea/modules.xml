@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lektion_03/Assignment.variabler.og.scanner/Assignment.variabler.og.scanner.iml" filepath="$PROJECT_DIR$/lektion_03/Assignment.variabler.og.scanner/Assignment.variabler.og.scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lektion 1 - intro/Lektion 1 - introduktion.iml" filepath="$PROJECT_DIR$/Lektion 1 - intro/Lektion 1 - introduktion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lektion4/Lektion4.iml" filepath="$PROJECT_DIR$/Lektion4/Lektion4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmering 1.iml" filepath="$PROJECT_DIR$/Programmering 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projekt2_Array_og_klasser/Projekt2_Array_og_klasser.iml" filepath="$PROJECT_DIR$/Projekt2_Array_og_klasser/Projekt2_Array_og_klasser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Studiestartsproeve/Studiestartsproeve.iml" filepath="$PROJECT_DIR$/Studiestartsproeve/Studiestartsproeve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek05/lek05.iml" filepath="$PROJECT_DIR$/lek05/lek05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek06 - workshop/lek06 - workshop.iml" filepath="$PROJECT_DIR$/lek06 - workshop/lek06 - workshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek09arraysdel2/lek09arraysdel2.iml" filepath="$PROJECT_DIR$/lek09arraysdel2/lek09arraysdel2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek10Shapes/lek10Shapes.iml" filepath="$PROJECT_DIR$/lek10Shapes/lek10Shapes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek13_klasser_og_objekter/lek13_klasser_og_objekter.iml" filepath="$PROJECT_DIR$/lek13_klasser_og_objekter/lek13_klasser_og_objekter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek14_KlasserObjekterSpecifikationer/lek14_KlasserObjekterSpecifikationer.iml" filepath="$PROJECT_DIR$/lek14_KlasserObjekterSpecifikationer/lek14_KlasserObjekterSpecifikationer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek15_7_10/lek15_7_10.iml" filepath="$PROJECT_DIR$/lek15_7_10/lek15_7_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek7/lek7 - workshop (Lav færdigt).iml" filepath="$PROJECT_DIR$/lek7/lek7 - workshop (Lav færdigt).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek8/lek8Arraysdel1.iml" filepath="$PROJECT_DIR$/lek8/lek8Arraysdel1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lek_02_SimpleJava/lek_02_SimpleJava.iml" filepath="$PROJECT_DIR$/lek_02_SimpleJava/lek_02_SimpleJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion_03/lektion_03.iml" filepath="$PROJECT_DIR$/lektion_03/lektion_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion_03/lektion_03_forberedelse/lektion_03_forberedelse.iml" filepath="$PROJECT_DIR$/lektion_03/lektion_03_forberedelse/lektion_03_forberedelse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projekt 1_Terningspil/projekt 1_Terningspil.iml" filepath="$PROJECT_DIR$/projekt 1_Terningspil/projekt 1_Terningspil.iml" />
+    </modules>
+  </component>
+</project>

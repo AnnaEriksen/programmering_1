@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00b4c5c1-a801-4784-8818-acf16b7900d5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-21.0.4/lib/src.zip!/java.base/java/lang/System.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="proportion" value="0.50344825" />
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2lEyjlyJsz3YfbtUOTI8DzGeOc1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdditionQuiz.executor": "Run",
+    "Application.App (1).executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.AppAnnaE.executor": "Run",
+    "Application.ArrayApp.executor": "Run",
+    "Application.ArrayApp2.executor": "Run",
+    "Application.ChildAppOgave4.executor": "Run",
+    "Application.ChildAppOgave4eller5.executor": "Run",
+    "Application.ComputeArea.executor": "Run",
+    "Application.ComputeAreaWithConsoleInput.executor": "Run",
+    "Application.ComputeAreaWithConstant.executor": "Run",
+    "Application.ComputeAverage.executor": "Run",
+    "Application.Craps.executor": "Run",
+    "Application.EmployeeApp.executor": "Run",
+    "Application.FanApp.executor": "Run",
+    "Application.FindMax.executor": "Run",
+    "Application.Fix_errors.executor": "Run",
+    "Application.Gui.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.Lav_en_kat.executor": "Run",
+    "Application.LoekkerOpgaver.executor": "Run",
+    "Application.MetoderEksempel.executor": "Run",
+    "Application.NameApp.executor": "Run",
+    "Application.Omkreds_og_areal_af_cirkel.executor": "Run",
+    "Application.Omkreds_og_areal_af_en_rektangel.executor": "Run",
+    "Application.Opgave1.executor": "Run",
+    "Application.Opgave2a.App.executor": "Run",
+    "Application.Opgave2b.App.executor": "Run",
+    "Application.Opgave3del2.executor": "Run",
+    "Application.Opgave_1.executor": "Run",
+    "Application.Opgave_1_del_2.executor": "Run",
+    "Application.Opgave_2.executor": "Run",
+    "Application.Opgave_3.executor": "Run",
+    "Application.Pigs.executor": "Run",
+    "Application.Random_test.executor": "Run",
+    "Application.RentalApp.executor": "Run",
+    "Application.RollOneDie.executor": "Run",
+    "Application.RollTwoDice.executor": "Run",
+    "Application.Saldo_efter_antal_år.executor": "Run",
+    "Application.ShowCircle.executor": "Run",
+    "Application.SimpelFor.executor": "Run",
+    "Application.Skriv_navn_i_stjerner.executor": "Run",
+    "Application.Summen_af_10.executor": "Run",
+    "Application.TeamApp.executor": "Run",
+    "Application.Timetabel.executor": "Run",
+    "Application.average_speed_in_miles.executor": "Run",
+    "Application.lav_et_ansigt.executor": "Run",
+    "Application.loekkeOpgaver.executor": "Run",
+    "Application.magrethesOpgaver5.App.executor": "Run",
+    "Application.magrethesopgaver3.App.executor": "Run",
+    "Application.magrethesopgaver4.App.executor": "Run",
+    "Application.opg1.executor": "Run",
+    "Application.opg1a.executor": "Run",
+    "Application.opg1b.executor": "Run",
+    "Application.opg2.executor": "Run",
+    "Application.opg3.executor": "Run",
+    "Application.opg3a.App.executor": "Run",
+    "Application.opg3a.Gui.executor": "Run",
+    "Application.opg4.App.executor": "Run",
+    "Application.opg4.executor": "Run",
+    "Application.opg4Alternativ.executor": "Run",
+    "Application.opgave08.executor": "Run",
+    "Application.opgave1.App.executor": "Run",
+    "Application.opgave10.executor": "Run",
+    "Application.opgave2.executor": "Run",
+    "Application.opgave3.App.executor": "Run",
+    "Application.opgave3.executor": "Run",
+    "Application.opgave3og7.executor": "Run",
+    "Application.opgave4.executor": "Run",
+    "Application.opgave5.executor": "Run",
+    "Application.opgave6.executor": "Run",
+    "Application.opgave6a.executor": "Run",
+    "Application.opgave6b.executor": "Run",
+    "Application.opgave8.executor": "Run",
+    "Application.opgave9.executor": "Run",
+    "Application.opgaver.App.executor": "Run",
+    "Application.opgaver.ly_14_16_rectangle.App.executor": "Run",
+    "Application.opgaver.ly_14_4_circle.App.executor": "Run",
+    "Application.personApp.executor": "Run",
+    "Application.variables.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/annae/IdeaProjects/projekt 1/lek15_7_10/src/opgave3",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek15_7_10\src\opgave3" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek10Shapes\src\opg4" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek10Shapes\src\opg3a" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek10Shapes\src\magrethesOpgaver5" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek10Shapes\src\magrethesopgaver4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\Studiestartsproeve\src\Studiestartsproevve" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek14_KlasserObjekterSpecifikationer\src" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek13_klasser_og_objekter\src\Klasser_og_Objekter" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\projekt 1_Terningspil\src" />
+      <recent name="C:\Users\annae\IdeaProjects\projekt 1\lek10Shapes\src\opgaver" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="lektion4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Projekt2_Array_og_klasser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stopwatch.App" />
+      <module name="lek15_7_10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stopwatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppAnnaE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Studiestartsproevve.AppAnnaE" />
+      <module name="Studiestartsproeve" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Studiestartsproevve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pigs" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playdice.pigsgame.Pigs" />
+      <module name="projekt 1_Terningspil" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playdice.pigsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TeamApp" />
+      <module name="Projekt2_Array_og_klasser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opgave3.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opgave3.App" />
+      <module name="lek15_7_10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="opgave3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.TeamApp" />
+        <item itemvalue="Application.AppAnnaE" />
+        <item itemvalue="Application.opgave3.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lek_02_SimpleJava/src/Opgaver_02/Skriv_navn_i_stjerner.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lek_02_SimpleJava/src/Opgaver_02/average_speed_in_miles.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lektion_03/lektion_03_forberedelse/src/forberedelse_03_fra_bog/ComputeAreaWithConsoleInput.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
