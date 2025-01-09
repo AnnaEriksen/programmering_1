@@ -12,6 +12,7 @@ import model.Bane;
 import model.Booking;
 import model.Spiller;
 
+import javax.print.DocFlavor;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -45,9 +46,9 @@ public class Juni23Gui extends Application {
 
     private void initContent(GridPane pane) {
         pane.setGridLinesVisible(false);
-        pane.setPadding(new Insets(10));
-        pane.setHgap(10);
-        pane.setVgap(5);
+        pane.setPadding(new Insets(20));
+        pane.setHgap(20);
+        pane.setVgap(10);
 
         // column 0
         Label lblBaner = new Label("Baner");
@@ -55,13 +56,15 @@ public class Juni23Gui extends Application {
 
         // Tilføj listener til lvwBaner
         lvwBaner.getSelectionModel().selectedItemProperty().addListener((ov, oldBane, newBane)
-                -> this.baneSelected());
-        pane.add(lvwBaner, 0, 1);
+                -> this.baneSelected()); pane.add(lvwBaner, 0, 1);
+
+        // TODO: lvwBaner med listener
 
         Label lblAntalBookninger = new Label("Antal bookinger på banen");
         pane.add(lblAntalBookninger, 0, 2);
 
-        pane.add(txaAntalBookinger, 0, 3);
+        // TODO: txaAntalBookinger
+        TextArea bookinger;
 
         // column 1
         Label lblSpillere = new Label("Spillere");
@@ -69,14 +72,13 @@ public class Juni23Gui extends Application {
 
         // Tilføj listener til lvwSpillere
         lvwSpillere.getSelectionModel().selectedItemProperty().addListener((ov, oldSpiller, newSpiller)
-                -> this.spillerSelected());
-        pane.add(lvwSpillere, 1, 1);
+                -> this.spillerSelected()); pane.add(lvwSpillere, 1, 1);
+
+        // TODO: lvwSpillere med listener
 
         // column 2
         Label lblBookings = new Label("Spillerens bookinger");
         pane.add(lblBookings, 2, 0, 2, 1);
-
-        pane.add(txaBookings, 2, 1, 2, 1);
 
         Label lblOpretBooking = new Label("Opret booking:");
         pane.add(lblOpretBooking, 2, 2);
@@ -86,6 +88,9 @@ public class Juni23Gui extends Application {
 
         Label lblTid = new Label("Tid:");
         pane.add(lblTid, 2, 4);
+
+        // column 3
+        // TODO: txaBookings
 
         pane.add(txfDato, 3, 3);
 
@@ -97,11 +102,12 @@ public class Juni23Gui extends Application {
         bookBane.setOnAction(e -> bookAction());
         pane.add(bookBane, 3, 6);
 
-        // Initialiser ListViews med data
         lvwBaner.getItems().addAll(Storage.getBaner());
         lvwSpillere.getItems().addAll(Storage.getSpillere());
     }
 
+
+    // metode knyttet til listener på lvwBane
     private void baneSelected() {
         Bane selectedBane = lvwBaner.getSelectionModel().getSelectedItem();
         if (selectedBane != null) {
@@ -114,57 +120,70 @@ public class Juni23Gui extends Application {
                 }
             }
             txaBookings.setText(bookingText.toString());
+            txaAntalBookinger.setText("Antal bookinger på: " + selectedBane.getNavn()); // Reinsert this line
         } else {
             txaBookings.clear();
         }
+
     }
 
+    // metode knyttet til listener på lvwSpiller
     private void spillerSelected() {
-            Spiller selectedSpiller = lvwSpillere.getSelectionModel().getSelectedItem();
-            if (selectedSpiller != null) {
-                ArrayList<Booking> spillerBookinger = Storage.getBookingerBySpiller(selectedSpiller);
+        Spiller selectedSpiller = lvwSpillere.getSelectionModel().getSelectedItem();
+        if (selectedSpiller != null) {
 
-                // Opbyg en tekststreng for bookinger for den valgte spiller
-                StringBuilder bookingsText = new StringBuilder();
-                for (Booking b : spillerBookinger) {
+            //opdater spillere efter egen logik
+            ArrayList<Booking> alleBookinger = Storage.getBookinger();
+
+            // Opbyg en tekststreng for bookinger for den valgte spiller
+            StringBuilder bookingsText = new StringBuilder();
+            for (Booking b : alleBookinger) {
+                if (b.getSpiller().equals(selectedSpiller)) {
                     bookingsText.append(b).append("\n");
                 }
-
-                txaBookings.setText(bookingsText.toString());
-            } else {
-                txaBookings.clear();
             }
+
+            txaBookings.setText(bookingsText.toString());
+        } else {
+            txaBookings.clear();
+
         }
     }
 
+    // metode knyttet til Book-bane-til.spiller knap
     private void bookAction() {
-            String datostr = txfDato.getText().trim();
-            String tidstr = txfTid.getText().trim();
-            boolean single = cbxSingle.isSelected();
-            Spiller spiller = lvwSpillere.getSelectionModel().getSelectedItem();
-            Bane bane = lvwBaner.getSelectionModel().getSelectedItem();
-            if (spiller != null && bane != null && !datostr.isEmpty() && !tidstr.isEmpty()) {
-                try {
-                    LocalDate dato = LocalDate.parse(datostr);
-                    LocalTime tid = LocalTime.parse(tidstr);
+        String datostr = txfDato.getText().trim();
+        String tidstr = txfTid.getText().trim();
+        boolean single = cbxSingle.isSelected();
+        Spiller spiller = lvwSpillere.getSelectionModel().getSelectedItem();
+        Bane bane = lvwBaner.getSelectionModel().getSelectedItem();
+        if (spiller != null && bane != null && !datostr.isEmpty() && !tidstr.isEmpty()) {
+            try {
 
-                    Controller.createBooking(dato, tid, single, spiller, bane);
+                //konverterer string dato til en Localdate og time for at kunne oprette booking via controller
+                LocalDate dato = LocalDate.parse(datostr);
+                LocalTime tid = LocalTime.parse(tidstr);
 
-                    bane
+                // Opret booking via Controller
+                Controller.createBooking(dato, tid, single, spiller, bane);
+                // Her kan du implementere din booking logik
+                txaAntalBookinger.setText("Antal bookinger på: " + bane.getNavn());
+                // Opdater spillerens bookinger, hvis nødvendigt
+
+                updateListViews();
+                baneSelected();
+                spillerSelected();
                 } catch (Exception e) {
-                    Alert alert = new Alert(Alert.AlertType.ERROR);
-                    alert.setTitle("Fejl");
-                    alert.setHeaderText(null);
-                    alert.setContentText("Der opstod en fejl ved oprettelse af booking: " + e.getMessage());
-                    alert.showAndWait();
-                }
-            } else {
-                Alert alert = new Alert(Alert.AlertType.WARNING);
-                alert.setTitle("Advarsel");
-                alert.setHeaderText(null);
-                alert.setContentText("Udfyld venligst alle felter og vælg både en spiller og en bane.");
-                alert.showAndWait();
-            }
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setTitle("Fejl"); alert.setHeaderText(null);
+                alert.setContentText("Der opstod en fejl ved oprettelse af booking: " + e.getMessage());
+                alert.showAndWait(); }
+        } else {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Advarsel");
+            alert.setHeaderText(null);
+            alert.setContentText("Udfyld venligst alle felter og vælg både en spiller og en bane.");
+            alert.showAndWait();
         }
     }
 
@@ -172,3 +191,4 @@ public class Juni23Gui extends Application {
         lvwBaner.getItems().setAll(Storage.getBaner());
         lvwSpillere.getItems().setAll(Storage.getSpillere());
     }
+}
