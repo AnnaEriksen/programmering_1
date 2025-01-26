@@ -1,0 +1,7 @@
+Uddannelse: DMU
+Anders Hansen   DMU  1dmE17S  aaa@Students.eaaa.dk  Margrethe Dybdahl
+Lone Andersen   DMU  1dmE17S  lll@Students.eaaa.dk  Margrethe Dybdahl
+Peter Jensen    DMU  1dmE17U  ppp@Students.eaaa.dk  Kell Ørhøj
+Niels Madsen    DMU  1dmE17U  nnn@Students.eaaa.dk  Kell Ørhøj
+Uddannelse: FINØ
+Mads Miller     FINØ 1fiE17B  mmm@Students.eaaa.dk  Karen Jensen
